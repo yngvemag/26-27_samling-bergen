@@ -158,6 +158,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+uv.lock
+pyproject.toml
 
 # Spyder project settings
 .spyderproject
@@ -218,3 +220,5 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+.idea
