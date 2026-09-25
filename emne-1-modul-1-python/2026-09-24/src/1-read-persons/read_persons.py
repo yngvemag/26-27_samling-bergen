@@ -108,8 +108,21 @@ if __name__ == '__main__':
         count_men2 = len([p for p in results if p.gender.lower() == 'mann'])
         count_women2 = len([p for p in results if p.gender.lower() == 'kvinne'])
 
-        #for p in results:
-        #    print(p)
+         # Lag resultattekst
+        text = (
+            f"Antall personer: {len(results)}\n"
+            f"Antall menn: {count_men2}\n"
+            f"Antall kvinner: {count_women2}\n"
+            f"Total alder menn: {age_men2}\n"
+            f"Total alder kvinner: {age_women2}\n"
+        )
+
+        # Skriv resultat til skjerm
+        print(text)
+
+        # Skriv resultat til fil
+        # 'w' gjør at gammel result.txt overskrives
+        write_to_file("result.txt", text)
 
     except Exception as error:
         print(f"En uventet feil oppstod {e}")

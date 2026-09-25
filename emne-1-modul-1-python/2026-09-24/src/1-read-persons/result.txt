@@ -1,0 +1,6 @@
+Antall personer: 10
+Antall menn: 5
+Antall kvinner: 5
+Total alder menn: 186
+Total alder kvinner: 169
+
