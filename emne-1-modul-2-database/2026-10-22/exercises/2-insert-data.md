@@ -7,28 +7,28 @@ Når databasen og tabellene er opprettet, skal databasen fylles med eksempeldata
 
 Legg inn følgende studenter:
 
-| Fornavn | Etternavn | Studie | Startår |
-|---|---|---|---:|
-| Emma | Hansen | Backend-programmering | 2026 |
-| Oliver | Johansen | Backend-programmering | 2026 |
-| Nora | Larsen | Backend-programmering | 2026 |
-| Jakob | Nilsen | Backend-programmering | 2026 |
-| Sofie | Berg | Backend-programmering | 2026 |
-| Magnus | Eriksen | Backend-programmering | 2025 |
-| Ida | Andersen | Backend-programmering | 2025 |
-| Henrik | Olsen | Backend-programmering | 2025 |
-| Thea | Pedersen | Backend-programmering | 2025 |
-| Lucas | Kristiansen | Frontend-utvikling | 2026 |
-| Sara | Moen | Frontend-utvikling | 2026 |
-| Emil | Solberg | Frontend-utvikling | 2026 |
-| Ingrid | Dahl | Frontend-utvikling | 2025 |
-| Mathias | Lunde | Frontend-utvikling | 2025 |
-| Amalie | Strand | Frontend-utvikling | 2025 |
-| William | Lie | Cybersikkerhet | 2026 |
-| Maja | Knutsen | Cybersikkerhet | 2026 |
-| Noah | Eide | Cybersikkerhet | 2026 |
-| Ella | Haugen | Cybersikkerhet | 2025 |
-| Aksel | Bakke | Cybersikkerhet | 2025 |
+| Fornavn | Etternavn | Studie                | Startår |
+|---|---|-----------------------|---:|
+| Emma | Hansen | Backend-utvikling     | 2026 |
+| Oliver | Johansen | Backend-utvikling | 2026 |
+| Nora | Larsen | Backend-utvikling | 2026 |
+| Jakob | Nilsen | Backend-utvikling | 2026 |
+| Sofie | Berg | Backend-utvikling | 2026 |
+| Magnus | Eriksen | Backend-utvikling | 2025 |
+| Ida | Andersen | Backend-utvikling | 2025 |
+| Henrik | Olsen | Backend-utvikling | 2025 |
+| Thea | Pedersen | Backend-utvikling | 2025 |
+| Lucas | Kristiansen | Frontend-utvikling    | 2026 |
+| Sara | Moen | Frontend-utvikling    | 2026 |
+| Emil | Solberg | Frontend-utvikling    | 2026 |
+| Ingrid | Dahl | Frontend-utvikling    | 2025 |
+| Mathias | Lunde | Frontend-utvikling    | 2025 |
+| Amalie | Strand | Frontend-utvikling    | 2025 |
+| William | Lie | Cybersikkerhet        | 2026 |
+| Maja | Knutsen | Cybersikkerhet        | 2026 |
+| Noah | Eide | Cybersikkerhet        | 2026 |
+| Ella | Haugen | Cybersikkerhet        | 2025 |
+| Aksel | Bakke | Cybersikkerhet        | 2025 |
 
 Lag en unik e-postadresse for hver student på formen:
 
