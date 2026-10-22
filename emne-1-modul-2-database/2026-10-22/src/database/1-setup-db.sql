@@ -13,7 +13,7 @@ CREATE TABLE students(
     start_year INT NOT NULL
 );
 
-CREATE TABLE subject(
+CREATE TABLE subjects(
     subject_id INT AUTO_INCREMENT PRIMARY KEY,
     subject_name VARCHAR(100) NOT NULL UNIQUE,
     credits INT NOT NULL
@@ -31,7 +31,7 @@ CREATE TABLE grades(
 
     CONSTRAINT fk_grades_subject
         FOREIGN KEY (subject_id)
-        REFERENCES subject(subject_id),
+        REFERENCES subjects(subject_id),
 
     CONSTRAINT uq_student_subject
         UNIQUE (student_id, subject_id)
