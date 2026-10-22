@@ -53,7 +53,7 @@ def command(host: str,
             # Step 4b -> for insert, update og delete -> bekrefte endringer i databasen
             conn.commit()
 
-            return True if db_cursor.rowcount == 1 else False
+            return True
 
     except mysql.connector.IntegrityError as intErr:
         print(f"Database IntegrityError error: '{intErr}'")

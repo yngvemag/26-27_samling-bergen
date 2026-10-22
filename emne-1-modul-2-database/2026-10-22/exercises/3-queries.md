@@ -36,6 +36,9 @@ I denne delen skal du bruke SQL til å undersøke databasen. Du skal arbeide med
 
 17. **Utforskingsoppgave:** Finn emnet som har flest `A`-karakterer. Du får ikke oppgitt hvilke SQL-elementer som skal brukes. Forklar kort hvordan du kom frem til løsningen.
 
+18. **Studenter uten karakter i Cloud og containere:** Vis alle studenter som ikke har en registrert karakter i emnet `Cloud og containere`. Vis navn og studieprogram.
+
+19. **Alle studenter og eventuell Cloud-karakter:** Vis alle studenter, også de uten karakter i `Cloud og containere`. Vis navn og karakter, og sorter etter etternavn.
 
 # Oppgave 4 – INSERT, UPDATE og DELETE
 
